@@ -1,0 +1,46 @@
+body{
+    text-transform: capitalize;
+    background-color: #EEE;
+}
+.top{
+    margin-top: 25px;
+}
+.bottom{
+    margin-bottom: 10px;
+}
+a{
+    color:#000
+}
+a:hover{
+    text-decoration: none;
+    color:#000;
+}
+.box-shadow{
+    transition: .3s all ease-in-out;
+    padding:2px
+}
+.box-shadow:hover{
+    box-shadow: 2px 2px 8px 4px #aaa;
+    border-radius: 10px;
+}
+.box-shadow:hover .btn-link{
+    display: inline;
+}
+.circle{
+    border:1px solid #000;
+    border-radius:50%;
+    padding-left:5px;
+    padding-right:5px;
+    margin-bottom: 5px;
+}
+.confirm{
+    margin-top: 5px;
+}
+.map{
+    height: 300px;
+    box-shadow: 1px 1px 4px 1px;
+}
+.btn-link{
+    display:none
+}
+
